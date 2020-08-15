@@ -1,0 +1,129 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+   border-style: dotted none none;
+   border-width: 10px;
+   width:10%;
+   border-color: #ffc1f3;
+   margin: 50px auto 50px auto;
+
+}
+
+h1{
+  width: 50%;
+  margin:50px auto 0 auto;
+  font-family:'Dancing Script', cursive;
+  font-size: 5rem;
+  color: #0f4c75;
+}
+
+h2{
+  font-size: 1.5rem;
+  color: #0f4c75;
+}
+
+.dog-owner{
+  font-weight: normal;
+}
+
+h3{
+  color:#00b7c2;
+}
+
+.dog-profile{
+  width: 200px;
+  margin-top: 20px;
+}
+
+.tennisball{
+  width: 200px;
+  float: left;
+  margin-right: 30px;
+}
+
+.biscuit{
+  width:200px;
+  float: right;
+  margin-left: 30px;
+}
+
+.top-container{
+  background-color: #cffffe;
+  position: relative;
+  padding-top: 100px
+}
+
+.middle-container{
+
+}
+
+.bottom-container{
+background-color: #cffffe;
+line-height: 2;
+padding: 20px;
+margin: 20px;
+}
+
+.profile{
+  width:50%;
+  margin: 100px auto 50px auto;
+  line-height: 2;
+}
+
+.skill-row{
+  width:50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom:300px;
+  margin-bottom:10px;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.footer-link{
+  color:#11999E;
+  margin: auto 20px;
+}
+
+.btn{
+  color:#11999E;
+}
+
+.myButton {
+	box-shadow: 0 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
